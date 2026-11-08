@@ -1,0 +1,14 @@
+<resources>
+    <style name="Theme.Audix" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">#00B8A3</item>
+        <item name="colorSecondary">#00E5C3</item>
+        <item name="colorSurface">#1E2330</item>
+        <item name="android:windowBackground">#14171F</item>
+        <item name="android:statusBarColor">#14171F</item>
+    </style>
+    <style name="Skin.Teal" parent="Theme.Audix"/>
+    <style name="Skin.Violet" parent="Theme.Audix"><item name="colorPrimary">#7C4DFF</item><item name="colorSecondary">#B388FF</item></style>
+    <style name="Skin.Amber" parent="Theme.Audix"><item name="colorPrimary">#FFA000</item><item name="colorSecondary">#FFCA28</item></style>
+    <style name="Skin.Rose" parent="Theme.Audix"><item name="colorPrimary">#E91E63</item><item name="colorSecondary">#FF80AB</item></style>
+    <style name="Skin.Amoled" parent="Theme.Audix"><item name="android:windowBackground">#000000</item><item name="android:statusBarColor">#000000</item></style>
+</resources>
