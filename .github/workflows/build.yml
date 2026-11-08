@@ -23,6 +23,11 @@ jobs:
         with:
           gradle-version: 8.7
 
+      - name: Show repo layout (diagnostics)
+        run: |
+          find . -type f -not -path './.git/*' | sort | head -80
+          gradle projects
+
       - name: Build debug APK
         run: gradle assembleDebug --stacktrace
 
